@@ -1,4 +1,5 @@
-<!DOCTYPE html><html lang="fr">
+<!DOCTYPE html>
+<html lang="fr">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -57,8 +58,15 @@
       border-radius: 5px;
       margin-top: 1rem;
     }
-    .contact {
-      text-align: center;
+    .btn-group {
+      display: flex;
+      flex-direction: column;
+      gap: 1rem;
+      align-items: flex-start;
+      margin-top: 1rem;
+    }
+    .btn-group a {
+      width: fit-content;
     }
     .testimonials {
       background: #1a1a1a;
@@ -87,7 +95,7 @@
 </head>
 <body>
   <header>
-    <img src="photo.jpg" alt="Mcee">
+    <img src="photo.png" alt="Mcee">
     <h1>Mcee</h1>
     <p>Manager dans l'équipe 888Starz</p>
   </header>  <section class="section">
@@ -96,7 +104,10 @@
   </section>  <section class="section">
     <h2>Rejoins ma team</h2>
     <p>Tu veux gagner de l'argent avec les paris en ligne ? Je t'accompagne personnellement pour te lancer. Clique ici pour t'inscrire sur 888Starz via mon lien affilié :</p>
-    <a class="btn" href="https://888shrt.com/TeamAtlas" target="_blank">S'inscrire avec moi</a>
+    <div class="btn-group">
+      <a class="btn" href="https://888shrt.com/TeamAtlas" target="_blank">S'inscrire avec moi</a>
+      <a class="btn" href="https://wa.me/237659000020" target="_blank">Me contacter sur WhatsApp</a>
+    </div>
   </section>  <section class="section testimonials">
     <h2>Témoignages</h2>
     <div class="testimonial">
@@ -105,11 +116,8 @@
     <div class="testimonial">
       <p>"Très pro, toujours dispo pour aider. Mcee est un vrai mentor dans l'affiliation." — <strong>Laura</strong></p>
     </div>
-  </section>  <section class="section contact">
-    <h2>Contacte-moi</h2>
-    <p>WhatsApp : <a class="btn" href="https://wa.me/237659000020" target="_blank">+237 659 000 020</a></p>
   </section>  <footer>
     <p>&copy; 2025 Mcee | Tous droits réservés</p>
   </footer>
 </body>
-  </html>
+    </html>
